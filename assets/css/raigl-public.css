@@ -1,0 +1,88 @@
+.raigl-clearfix:before, .raigl-clearfix:after{content: "";display: table;}
+.raigl-clearfix::after{clear: both;}
+.raigl-hide{display:none;}
+.raigl-center{text-align:center;}
+.raigl-gallery-wrp *, .raigl-gallery-album-wrp *{box-sizing: border-box; outline:none !important;}
+.raigl-gallery-wrp .raigl-inr-wrp{position:relative; overflow: hidden;}
+.raigl-gallery-wrp .raigl-img, .raigl-gallery-album-wrp .raigl-img{border-radius:0 !important; box-shadow:none !important; border:0; margin:0; padding:0; object-fit:cover; object-position:top center; height:100%; width:100%;}
+.raigl-img-title{font-weight:bold; padding: 8px 0 0 0;}
+.raigl-img-desc{padding: 8px 0 0 0;}
+.raigl-gallery-wrp .raigl-img-wrp {line-height: 0;}
+
+.raigl-mfp-popup button.mfp-arrow, .raigl-mfp-popup button.mfp-close{background-color:transparent !important; background-image:none !important; box-shadow:none !important;}
+.raigl-cnt-wrp .raigl-img-desc p:last-child{margin-bottom: 0;}
+.raigl-cnt-wrp .raigl-img-desc p {margin-bottom: 8px;}
+
+.raigl-gallery-album-wrp .raigl-img-wrp{border:1px solid #ccc; padding: 5px; z-index: 1;}
+.raigl-gallery-album-wrp .raigl-img-wrp::after { border-width: 4px !important; bottom: -7px; content: " "; left: -7px; position: absolute; right: 11px; top: 5px; border-style: none none double double !important; border-color: #ccc; z-index: -1;}
+.raigl-img-count {font-style: italic; padding: 6px 0 0 0;}
+
+/* Slider CSS Starts */
+.raigl-gallery-slider{visibility: hidden; opacity:0; transition:opacity 0.5s linear;}
+.raigl-gallery-slider.slick-initialized {visibility: visible !important; opacity:1 !important;}
+.raigl-gallery-slider .slick-arrow,
+.raigl-gallery-slider .slick-dots li button{text-indent:-99999px;}
+.raigl-gallery-slider button.slick-arrow{width:30px; height:50px; position:absolute; z-index:999; border:0px !important; padding:0 !important; border-radius:0px !important; margin: -25px 0 0 0 !important; top: 50% !important;}
+.raigl-gallery-slider button.slick-next,
+.raigl-gallery-slider button.slick-next:hover,
+.raigl-gallery-slider button.slick-next:focus,
+.raigl-gallery-slider button.slick-next:active{background:rgba(0, 0, 0, 0.7) url('../images/arrow-right.png') center center no-repeat !important;outline:none !important; box-shadow: none !important;border: 0 !important; border-radius: 0 !important;}
+
+.raigl-gallery-slider button.slick-prev, 
+.raigl-gallery-slider button.slick-prev:hover, 
+.raigl-gallery-slider button.slick-prev:focus, 
+.raigl-gallery-slider button.slick-prev:active{background:rgba(0, 0, 0, 0.7) url('../images/arrow-left.png') center center no-repeat !important;outline:none !important;box-shadow: none !important;}
+.raigl-gallery-slider .slick-prev{left:5px;}
+.raigl-gallery-slider .slick-next{right:5px;}
+
+.raigl-gallery-album-slider.raigl-gallery-slider .slick-prev{left:16px;}
+.raigl-gallery-album-slider.raigl-gallery-slider .slick-next{right:16px;}
+
+.raigl-gallery-slider .slick-dots{padding:15px 0 !important; margin:0 !important; text-align:center; line-height:0;}
+.raigl-gallery-slider .slick-dots li{list-style:none !important; display:inline-block !important; margin:0 3px !important; padding:0px !important;line-height: 0;}
+.raigl-gallery-slider ul.slick-dots li::before, .raigl-gallery-slider ul.slick-dots li::after{background:none !important;content:none !important;}
+.raigl-gallery-slider .slick-dots li button{background: #fff !important;margin: 0px !important;padding: 0px !important;border: 2px solid #444;border-radius: 50% !important;width: 12px !important; height: 12px !important; box-shadow: none !important;}
+.raigl-gallery-slider .slick-dots li button:focus{outline:none !important;}
+.raigl-gallery-slider .slick-dots li.slick-active button{background:#8D8C8C !important;}
+.raigl-gallery-slider .slick-slide{padding:0 5px !important; text-align:center;}
+.raigl-gallery-album-slider.raigl-gallery-slider .slick-slide{padding:0 10px 10px 10px !important; text-align:center;}
+/* Slider CSS Ends */
+
+/********************** ALBUM DESIGN-1 ***********************/
+.raigl-album-design-1 .raigl-img-title{font-weight: 600;text-transform: capitalize;font-size: 18px;line-height: normal;margin: 15px 0 0; padding: 0;}
+.raigl-album-design-1 .raigl-img-desc{padding: 8px 0 0 0;}
+.raigl-album-design-1 .raigl-img-wrp{position: relative;height: 300px;width: 100%;}
+.raigl-album-design-1 .raigl-img-count{padding-top:8px;}
+
+/********************** GALLERY DESIGN-1 ***********************/
+.raigl-design-1 .raigl-hide{display:none;}
+.raigl-design-1 .raigl-gallery-wrp *{box-sizing: border-box; outline:none !important;}
+.raigl-design-1 .raigl-gallery-wrp .raigl-inr-wrp{position:relative;}
+.raigl-design-1 .raigl-gallery-wrp .raigl-img-wrp{line-height:0; height: 225px; position:relative;}
+.raigl-design-1 .raigl-gallery-wrp .raigl-img{border-radius:0 !important; box-shadow:none !important; border:0; margin:0; padding:0; -o-object-fit:cover; object-fit:cover; -o-object-position:top center; object-position:top center; height:100%; width:100%;}
+
+.raigl-design-1 .raigl-gallery-wrp .raigl-first{clear:both;}
+.raigl-design-1 .raigl-img-caption {z-index: 1000;box-sizing: border-box;  bottom: 0; color: #fff; font-size: 16px; padding: 15px 10px; position: absolute; text-align: center; width: 100%; line-height:normal;background: RGBA(17, 17, 17, 0.62);}
+.raigl-design-1 .raigl-img-title{font-weight: 600;text-transform: capitalize;font-size: 18px;line-height: normal;margin: 8px 0 0;}
+.raigl-design-1 .raigl-img-desc{padding: 8px 0 0 0;}
+.raigl-design-1 .raigl-img-wrp{position: relative;height: 300px;width: 100%;}
+
+.raigl-column,
+.raigl-columns {width: 100%; position: relative; padding:10px; float:left;}
+
+@media only screen and (min-width: 40.0625em) {  
+    .raigl-column,
+    .raigl-columns {position: relative; padding: 10px; float:left;}
+    .raigl-col-1{ width: 100%; }
+    .raigl-col-2{ width: 50%; }
+    .raigl-col-3{ width: 33.33333%; }
+    .raigl-col-4{ width: 25%; }
+    .raigl-col-5{ width:20%; }
+    .raigl-col-6{ width: 16.66667%; }
+    .raigl-col-7{ width: 14.2857%; }
+    .raigl-col-8{ width: 12.5%; }
+    .raigl-col-9{ width: 11.11%; }
+    .raigl-col-10{ width: 10%; }
+    .raigl-col-11{ width: 9.090%; }
+    .raigl-col-12{ width: 8.33333%; }
+}
